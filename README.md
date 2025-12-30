@@ -1,7 +1,7 @@
 
-# MedMKG: Medical Multimodal Knowledge Graph
+# RADM: Radiological Multimodal Knowledge Graph
 
-We introduce **MedMKG**, a **Med**ical **M**ultimodal **K**nowledge **G**raph that seamlessly fuses clinical concepts with medical images.  
+We introduce **RADM**, a a **Rad**iological **M**ultimodal Knowledge Graph that seamlessly fuses clinical concepts with medical images.  
 MedMKG is constructed via a multi-stage pipeline that accurately identifies and disambiguates medical concepts while extracting their interrelations.  
 To ensure the conciseness of the resulting graph, we further employ a pruning strategy based on our novel Neighbor-aware Filtering (NaF) algorithm.
 
@@ -10,7 +10,7 @@ To ensure the conciseness of the resulting graph, we further employ a pruning st
 ## 📂 Provided Files
 
 This repository contains:
-- `MedMKG.csv` — biomedical triplets: Head, Relation, Tail, Head_Name, Tail_Name
+- `RADM.csv` — biomedical triplets: Head, Relation, Tail, Head_Name, Tail_Name
 - `image_mapping.csv` — image ID to **relative path** mappings
 
 **Note:** The images themselves are **not included**. Users must download MIMIC-CXR-JPG separately and specify their local path.
@@ -48,7 +48,7 @@ Below is a demo script to load and link the knowledge graph with your local imag
 ```python
 import pandas as pd
 
-kg_path = "MedMKG.csv"
+kg_path = "RADM.csv"
 mapping_path = "image_mapping.csv"
 
 # Load CSVs
