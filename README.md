@@ -1,8 +1,8 @@
 
 # RADM: Radiological Multimodal Knowledge Graph
 
-We introduce **RADM**, a a **Rad**iological **M**ultimodal Knowledge Graph that seamlessly fuses clinical concepts with medical images.  
-MedMKG is constructed via a multi-stage pipeline that accurately identifies and disambiguates medical concepts while extracting their interrelations.  
+We introduce **RadMKG**, a a **Rad**iological **M**ultimodal Knowledge Graph that seamlessly fuses clinical concepts with medical images.  
+RadMKG is constructed via a multi-stage pipeline that accurately identifies and disambiguates medical concepts while extracting their interrelations.  
 To ensure the conciseness of the resulting graph, we further employ a pruning strategy based on our novel Neighbor-aware Filtering (NaF) algorithm.
 
 ---
